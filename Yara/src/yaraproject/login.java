@@ -14,7 +14,7 @@ package yaraproject;
 	import java.net.MalformedURLException;
 	import java.net.URL;
 	import java.util.List;
-import java.util.Set;
+    import java.util.Set;
 
 	public class login {
 
@@ -25,7 +25,7 @@ import java.util.Set;
 	        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "samsunga7");
 	        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 	        capabilities.setCapability("udid", "3300a77ed13953d1");
-	        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7");
+	        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "6");
 	        capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
 	        
 	        capabilities.setCapability("appPackage", "com.yara.checkit");
